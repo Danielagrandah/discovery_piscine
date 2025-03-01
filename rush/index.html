@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CurriculumVitae</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Bootstrap & FontAwesome -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <!-- color et forme de sidebar -->
+
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                
+                <!-- color et forme du texte --> 
+                <!-- ne lissez pas la class, text-info pourquoi? -->
+
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-info min-vh-100">
+                    <a href="#" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-info text-decoration-none">
+                        <span class="fs-2 d-none d-sm-inline">Home</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        
+                        <!-- About me -->
+                        <li class="nav-item">
+                            <a href="#About-me" class="nav-link align-middle px-0 text-white">
+                                <i class="fs-5 bi-house text-info "></i> <span class="ms-1 d-none d-sm-inline">About me</span>
+                            </a>
+                        </li>
+
+                        <!-- Competences -->
+
+                        <li>
+                            <a href="#competences" class="nav-link px-0 align-middle text-white">
+                                <i class="fs-3 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Competences</span> </a>
+                        </li>
+
+                        
+                         <!-- Experiences professionelles -->                                         
+
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle text-white">
+                                <i class="fs-3 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline  ">Projets Réalisés</span> </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0 text-white"> <span class="d-none d-sm-inline">Project</span> 1 </a>
+                                </li>
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0 text-white"> <span class="d-none d-sm-inline">Project</span> 2 </a>
+                                </li>
+                            </ul>
+
+                            
+
+                        <!-- Contactez-moi -->
+
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle text-white">
+                                <i class="fs-3 bi-people text-white"></i> <span class="ms-1 d-none d-sm-inline">Contactez moi</span> </a>
+                        </li>
+                    </ul>
+                      
+                    
+                </div>
+            </div>
+
+            <div class="col py-3">
+            </ul>
+            
+
+            <div>
+                           
+
+                <div>
+                    
+                    <!-- personal information -->
+                    <div>
+                        
+                        <div class="container" >
+                            <img class="pf-img" width="30" height="40" src="/images/profilefoto.jpg">    
+                          <h1 class="name-style">Marie Dupont</h1>               
+                        </div>
+                    </div>
+                    
+                    <div class="container-01" id="About-me">
+                        <h2>Développeuse Junior en formation</h2>
+                        <span>
+                            Passionnée par le développement informatique et actuellement en formation à l’école 42, je suis à la recherche d’une première opportunité pour mettre en pratique mes compétences en programmation. Curieuse, autonome et persévérante, je suis motivée pour apprendre et évoluer dans un environnement technique stimulant.</span>
+                    </div>
+
+                    <div class="container-01" id="competences">
+                        <h2>Compétences Techniques</h2>
+                        <span>Langages : C, Python, JavaScript
+                            Développement Web : HTML, CSS, React (bases)
+                            Bases de données : MySQL, PostgreSQL
+                            Systèmes & Outils : Linux, Git, Docker (bases)
+                            Méthodologies : Apprentissage autonome, peer-programming, gestion de projet en mode agile</span>
+                    </div>
+
+                    <div class="container-01">
+                        <h2>Projets Réalisés</h1>
+                        <span>Libft (École 42) : Création d’une bibliothèque standard en C
+                            MiniShell : Développement d’un mini-interpréteur de commandes Linux en C
+                            Site Web Portfolio : Création d’un site vitrine personnel avec HTML, CSS et JavaScript
+                            Chat en temps réel : Application de chat basique avec Node.js et WebSocket
+                        </span>
+                    </div>
+
+                    <div class="container-01">
+                        <h2>Compétences Techniques</h1>
+                        <span> Expériences & Autres Activités
+                        (Pas d’expérience professionnelle en développement, mais mise en avant d’autres expériences utiles)
+                        Vendeuse – Boutique Zara, Paris (2023 - 2024)
+                        Relation client et travail en équipe                        
+                        Gestion de stock et encaissement                           
+                        Projets personnels en programmation (2023 - en cours)
+                        Participation à des hackathons en ligne
+                        Résolution de challenges sur LeetCode et CodeWars
+                        </span>
+                    </div>
+
+                    <div>
+                            <!-- <span>Disponibilité : Immédiate | Mobilité : Île-de-France
+                            📩 Contactez-moi pour toute opportunité !
+                            Développeuse informatique junior
+                            Téléphone : 06 12 34 56 78
+                            Email : sarah.dupont@gmail.com
+                            LinkedIn : linkedin.com/in/sarah-dupont
+                            GitHub : github.com/sarahdupont</span> -->
+                            <button class="btn-grad btn-grad:hover">Contactez-moi</button>
+                    </div>
+                    
+                </div>
+               
+
+                <!-- footer -->
+                 <hr>
+    
+
+                <footer class="footer">
+
+                    <div class="footer-container d-flex">
+                      <p>@ Copy - 2025 Daniela Grandah. </p>
+                      <div class="justify-content-end">
+                            <div class="social-links">
+                            <a href="https://www.linkedin.com" target="_blank" class="social-link">
+                                <img src="/images/linkedin-icon-3.svg" width="20" height="20" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com" target="_blank" class="social-link">
+                                <img src="/images/github-icon-2.svg" width="20" height="20"  alt="GitHub">
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" class="social-link">
+                                <img src="/images/instagram.svg" width="20" height="20" alt="Instagram">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                  </footer>
+            
+                
+
+
+            </div>
+            </div>
+            
+        </div>
+
+        
+        
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>

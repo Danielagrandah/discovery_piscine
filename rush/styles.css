@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: inherit;
+    color: inherit;
+    font: inherit;
+  }
+
+:root{
+    --primary-color: #dedbf6a0;
+    --secundary-color:  (211, 211, 211);
+    --text-color: hsl(0, 0%, 100%);
+    --bs-body-font-fam: "Playfair", serif;
+
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/footer.img);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: cover;
+  font-family: var(--bs-body-font-family);
+
+}
+
+.pf-img{
+  border-radius: 100%;
+  height: 20%;
+  width: 20%;
+  display: flex;
+  flex: center;
+}
+
+h1{
+  color: var(--text-color);
+}
+
+h2{
+  color: var(--text-color);
+}
+
+.name-style{
+  color: var(--text-color);
+}
+
+p, hr{
+  color: #eee;
+}
+
+
+
+.container{
+  margin: 5% 5% 5% 5%;
+  width: 90%;
+  height: 15%;
+  border-radius: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container-01{
+  margin: 2% 0% 2% 0%;
+  background-color: var(--primary-color);
+  padding: 2%;
+  width: 90%;
+  height: auto;
+  border-radius:5%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #1D2B64 0%, #F8CDDA  51%, #1D2B64  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
